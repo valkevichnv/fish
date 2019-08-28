@@ -1,3 +1,3 @@
 function gpo
-  git push -u origin $argv
+  git push origin $argv
 end

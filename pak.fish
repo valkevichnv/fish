@@ -13,5 +13,7 @@ function pak
     scp $FROMPATH $UFQDN:$TOPATH
   case conn
     ssh $UFQDN
+  case vpn
+    sudo openvpn --config /etc/openvpn/ovpn_valkevich_2024-08-12.ovpn
   end
 end
